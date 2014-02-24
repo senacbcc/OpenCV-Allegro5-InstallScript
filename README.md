@@ -6,7 +6,7 @@ EnviromentSetup
 Baixe ou clone o repositório e rode o arquivo install.sh
 
 ```
-$ cd EnviromentSetup
+$ cd OpenCV-Allegro5-InstallScript
 $ bash install.sh
 
 ```
