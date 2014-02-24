@@ -1,0 +1,9 @@
+language: c
+before_install:
+  - sudo bash install.sh -qq
+  cd sample
+install:
+script:
+  - make
+after_script:
+  - ./exemplo --init-only
