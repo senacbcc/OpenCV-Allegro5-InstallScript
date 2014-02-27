@@ -65,6 +65,7 @@ if ((b == Y))
 	sudo apt-get -y remove libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev
 	sudo apt-get -y remove x264 v4l-utils ffmpeg
 	sudo apt-get -y install libtbb2 libtiff4 libopenexr6 libgstreamer-plugins-base0.10-0 libv4l-0 libavcodec53 libavformat53 libswscale2 libqt4-opengl libqt4-test
+	sudo apt-get install libhighgui-dev
 	echo "OpenCV 2.4.8 pronto para ser usado."
 fi
 echo "Fim."
