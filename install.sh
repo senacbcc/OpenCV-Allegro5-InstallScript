@@ -10,7 +10,6 @@ sudo apt-get update
 echo Gostaria de instalar o Allegro5 Y/N
 read -r a
 if ((a == Y))
-	then
 	echo "Instalando Dependencias... "
 	sudo apt-get -y install libgl1-mesa-dev 
 	sudo apt-get -y install libglu1-mesa-dev 
@@ -26,6 +25,9 @@ if ((a == Y))
 	cd allegro
 	git checkout 5.0
 	cmake -DCMAKE_INSTALL_PREFIX=/usr .
+	make
+	sudo make install
+	echo "Allegro 5 Instalado"
 fi
 echo Gostaria de instalar o OpenCV Y/N
 read -r b
